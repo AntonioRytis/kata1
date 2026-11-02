@@ -22,7 +22,7 @@ public class Product {
         return price;
     }
 
-    public double getPriceWithTax() {
+    public double calcultatePriceWithTax() {
         return price + (price * TAX_RATE);
     }
 }
