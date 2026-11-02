@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Subtotal: " + product.getSubtotal());
         System.out.println("Descuento: " + product.getDiscount());
         System.out.println("Impuesto: " + product.getTaxAmount());
-        System.out.println("Precio final: " + product.getPriceWithTax());
+        System.out.println("Precio final: " + product.calculatePriceWithTax());
         System.out.println();
     }
 }

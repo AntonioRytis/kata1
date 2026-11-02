@@ -49,7 +49,7 @@ public class Product {
         return (getSubtotal() - getDiscount()) * TAX_RATE;
     }
 
-    public double getPriceWithTax() {
+    public double calculatePriceWithTax() {
         return getSubtotal() - getDiscount() + getTaxAmount();
     }
 }
