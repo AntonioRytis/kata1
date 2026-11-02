@@ -11,10 +11,15 @@ Hice una clase Product para la compra de un producto: tiene nombre, precio y can
 - IntelliJ IDEA
 
 ## Cómo se ejecuta
-Se abre el proyecto en IntelliJ y se ejecuta Main con Shift+F10 o con el triángulo verde del main. Si se quiere compilar desde la terminal, vale con mvn compile.
+Se abre el proyecto en IntelliJ y se ejecuta Main con Shift+F10 o con el triángulo verde del main. Si se quiere compilar desde la terminal, vale con:
+
+```
+mvn compile
+```
 
 Lo que tiene que salir:
 
+```
 Producto: Monitor x2
 Subtotal: 400.0
 Descuento: 0.0
@@ -26,6 +31,7 @@ Subtotal: 100.0
 Descuento: 10.0
 Impuesto: 18.9
 Precio final: 108.9
+```
 
 ## Las clases
 Product guarda el nombre, el precio y la cantidad. Los puse private y final para que no se puedan tocar desde fuera ni cambiar después de crear el producto. Si le pasas un precio negativo o una cantidad de 0 o menos, lanza un error.
